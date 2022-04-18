@@ -1,0 +1,26 @@
+{
+  "name": "vue3-vite-js-start",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .vue,.js ./",
+    "lint:fix": "eslint --fix --ext .vue,.js ./"
+  },
+  "dependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/eslint-parser": "^7.17.0",
+    "@vitejs/plugin-vue": "^2.3.0",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.6.0",
+    "prettier": "^2.6.2",
+    "vite": "^2.9.0"
+  }
+}
