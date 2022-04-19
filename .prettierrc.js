@@ -12,10 +12,10 @@ module.exports = {
   // 是否使用尾逗号，有三个可选值"<none|es5|all>"
   trailingComma: 'none',
   // 对象大括号直接是否有空格，默认为true，效果：{ foo: bar }
-  bracketSpacing: true
+  bracketSpacing: true,
   // 代码的解析引擎，默认为babylon，与babel相同
   // "parser": "babylon",
 
   // 开启 eslint 支持
-  // eslintIntegration: true
+  eslintIntegration: true
 }
