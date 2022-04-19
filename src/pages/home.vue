@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <router-view></router-view>
-  </div>
+  <div class="w-screen h-screen bg-red-200">Home</div>
 </template>
 
 <script>
