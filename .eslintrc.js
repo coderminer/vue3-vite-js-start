@@ -15,6 +15,7 @@ module.exports = {
   extends: ['plugin:vue/vue3-essential', 'eslint:recommended', 'plugin:prettier/recommended'],
   // add your custom rules here
   rules: {
-    'prettier/prettier': 'error'
+    'prettier/prettier': 'error',
+    'vue/multi-word-component-names': 0
   }
 }
